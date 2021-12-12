@@ -8,5 +8,6 @@ namespace BookStore.API.Repository
     {
 
         Task<IdentityResult> SignUpUserAsync(SignUpModel signUpModel);
+        Task<string> LogInAsync(SignInModel signModel);
     }
 }
